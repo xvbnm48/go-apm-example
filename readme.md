@@ -1,6 +1,6 @@
-## Go Apm with opentelemetry
+# Go Apm with opentelemetry
 
-### Installation
+## Installation
 
 ```bash
 go get go.opentelemetry.io/otel \
@@ -20,3 +20,9 @@ docker run -d --name jaeger \
   -p 14268:14268 \
   jaegertracing/all-in-one:latest
 ```
+
+## Jeager UI
+
+Dashboard using Jeager UI for see the traces
+
+![alt text](doc/image.png)
